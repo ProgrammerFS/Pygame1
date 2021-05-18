@@ -10,7 +10,7 @@ while running:
             running = False
 
     win.fill((255,255,255))
-    # pygame.draw.circle(win, (0, 0, 255), (250, 250), 75)
+    pygame.draw.circle(win, (0, 0, 255), (250, 250), 75)
     pygame.draw.rect(win, (0,0,255), (100, 100,200,250))
     pygame.display.flip()
 pygame.quit()
